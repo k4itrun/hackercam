@@ -6,7 +6,7 @@
 # Github     : https://github.com/k4itrun
 # Email      : k4itrun@6889.fun
 # Telegram   : https//t.me/k4itrun
-# Credits    : LinuxChoice
+# Credits    : LinuxChoice & techchipnet/CamPhish
 # Date       : 20-10-2023
 # License    : MIT
 # Copyright  : k4itrun (2023-202*)
