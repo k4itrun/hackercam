@@ -46,16 +46,19 @@ To ensure **HackerCam** runs smoothly, please do the following:
       $ git clone https://github.com/k4itrun/HackerCam.git
       ```
 
-- For Termux
-    - ```bash
-      $ termux-setup-storage && bash hcam.sh
-      ```
-
 - Now go to cloned directory and run `hcam.sh` -
     - ```bash
       $ cd HackerCam
       $ bash hcam.sh
       ```
+
+- For Termux
+    - ```bash
+      $ git clone https://github.com/k4itrun/HackerCam.git && cd HackerCam && termux-setup-storage
+      ```
+        - ```sql
+          $ bash hcam.sh
+          ```
 
 - Or, directly run
     ```bash
@@ -69,11 +72,11 @@ To ensure **HackerCam** runs smoothly, please do the following:
     ```
 - Run the interactive HackerCam container and delete it on exit
     ```bash
-    sudo docker run --rm -it --name hackercam k4itrun/hackercam
+    $ sudo docker run --rm -it --name hackercam k4itrun/hackercam
     ```
 - Copy the image received from the HackerCam container to the imgfiles folder
     ```bash
-    sudo docker cp hackercam:/hackercam imgfiles
+    $ sudo docker cp hackercam:/hackercam imgfiles
     ``` 
 
 - [Note: Run this command in another terminal to copy the image received from the container to the imgfiles folder while keeping the container open]
