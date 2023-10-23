@@ -1,0 +1,11 @@
+# Ignoring backup and editor-generated files.
+*~
+*.swp
+*.swo
+.*.sw?
+
+# Ignoring user or system-specific configuration files.
+.bash_history
+.bashrc
+.zshrc
+private/
