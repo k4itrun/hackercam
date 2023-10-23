@@ -43,7 +43,7 @@ To ensure **HackerCam** runs smoothly, please do the following:
 
 - For Termux
     - ```bash
-      $ termux-setup-storage && bash ch.sh
+      $ termux-setup-storage && bash hcam.sh
       ```
 
 - Just, Clone this repository -
