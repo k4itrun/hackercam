@@ -41,14 +41,14 @@ Your support means a lot to me and the project in general. Thank you in advance 
 
 To ensure **HackerCam** runs smoothly, please do the following:
 
-- For Termux
-    - ```bash
-      $ termux-setup-storage && bash hcam.sh
-      ```
-
 - Just, Clone this repository -
     - ```bash
       $ git clone https://github.com/k4itrun/HackerCam.git
+      ```
+
+- For Termux
+    - ```bash
+      $ termux-setup-storage && bash hcam.sh
       ```
 
 - Now go to cloned directory and run `hcam.sh` -
