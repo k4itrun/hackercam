@@ -9,3 +9,36 @@
 .bashrc
 .zshrc
 private/
+
+# PHP
+/vendor/
+composer.lock
+
+# CSS
+*.css.map
+
+# HTML
+*.html.map
+
+# Shell (Bash, Zsh, etc.)
+*.bash_history
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Build artifacts
+build/

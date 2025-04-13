@@ -1,101 +1,95 @@
-<!-- HackerCam -->
-
-<!-- h1 align="center">Hacker Camera</h1 -->
+<div align="center">
+  <picture>
+    <img 
+      src=".github/IMG/hackercam.png" 
+      height="150"
+      loading="lazy"
+      style="margin-bottom: 15px;"
+      alt="HackerCam logo"
+    />
+  </picture>
+  
+<h1>
+  <a href="https://github.com/k4itrun/hackercam" target="_blank" rel="noopener noreferrer">
+    HackerCam.
+  </a>
+</h1>
+</div>
 
 <p align="center">
-  <img src=".github/files/hcam.png">
+  Demonstrates how a simple link can expose the camera, IP, and location in real time, highlighting the importance of digital security.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/k4itrun/HackerCam?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/k4itrun/HackerCam?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/k4itrun/HackerCam?color=teal&style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/k4itrun/HackerCam?color=white&style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/k4itrun/HackerCam?color=yellow&style=for-the-badge">
-</p>
+<div align="center">
+<a aria-label="GitHub Maintained" href="https://github.com/k4itrun/wish/blob/master/license.md">
+    <img src="https://img.shields.io/badge/No-%5dd348f0?logo=github&style=flat-square&label=Maintained%3F">
+  </a>
+  <a aria-label="License" href="https://github.com/k4itrun/hackercam/blob/master/license.md">
+    <img src="https://img.shields.io/github/license/k4itrun/hackercam?color=%5dd348f0&logo=github&style=flat-square&label=License">
+  </a>
+  <a aria-label="Version" href="https://github.com/k4itrun/hackercam/releases">
+    <img src="https://img.shields.io/github/v/release/k4itrun/hackercam?color=%5dd348f0&logo=github&style=flat-square&label=Version">
+  </a>
+  <a aria-label="Discord" href="https://discord.gg/A6Vu7gYE">
+    <img src="https://img.shields.io/discord/903684797560397915?color=%5dd348f0&logo=discord&style=flat-square&logoColor=fff&label=Discord">
+  </a>
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Shell-red?style=flat-square">
-  <img src="https://img.shields.io/badge/Maintained%3F-Yes-lightblue?style=flat-square">
-  <img src="https://img.shields.io/badge/Author-k4itrun-black?style=flat-square">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fk4itrun%2FHackerCam&title=Visitors&edge_flat=false"/></a>
-</p>
+<div align="center">
+  <a aria-label="Stars" href="https://github.com/k4itrun/hackercam">
+    <img src="https://img.shields.io/github/stars/k4itrun/hackercam?color=%5dd348f0&logo=github&style=flat-square&label=Stars">
+  </a>
+  <a aria-label="Forks" href="https://github.com/k4itrun/hackercam/releases">
+    <img src="https://img.shields.io/github/forks/k4itrun/hackercam?color=%5dd348f0&logo=github&style=flat-square&label=Forks">
+  </a>
+  <a aria-label="Issues" href="https://github.com/k4itrun/hackercam/issues">
+    <img src="https://img.shields.io/github/issues/k4itrun/hackercam?color=%5dd348f0&logo=github&style=flat-square&label=Issues">
+  </a>
+</div>
 
-### Note
+## Table of Contents
 
-I would like to ask for your collaboration in this project. Adding a star to this repository would be a great help. Simply click the 'Star' button at the top right of the repository page.
+1. [Overview](#overview)
+   - [Notable Features](#notable-features)
+2. [Getting Started](#getting-started)
+   - [Requirements](#requirements)
+   - [Platform Support](#platform-support)
+   - [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [Contact](#contact)
+6. [License](#license)
+7. [Disclaimer](#disclaimer)
 
-Your support means a lot to me and the project in general. Thank you in advance for your help and collaboration! ⭐
 
-### Installation
+## Overview
 
-#### Use Google Shell for testing your (TESTS)
+This project demonstrates how a simple link can be used to expose sensitive information such as the user's camera, IP address, and real-time location. It serves as a powerful reminder of the importance of digital security and user awareness when interacting with unknown or suspicious links online.
 
-<p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/k4itrun/HackerCam.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
-</p>
+## Notable Features
 
-#### During the initial run, the system will take care of the complete installation of all necessary dependencies without any manual intervention required on your part
+- **Versatile Templates:** Choose from three distinct templates tailored to your needs.
+- **Comprehensive Information:** Uncover essential details including IP address, location, device type, and browser.
+- **Dual Tunneling:** Employ simultaneous double tunneling through Cloudflared and Loclx for enhanced security.
+- **Customized Image Storage:** Decide where you'd like to store your images with the option to select a custom directory.
+- **Effective Error Analysis:** Our built-in error diagnoser streamlines the troubleshooting process.
+- **Flexible Configuration:** Enjoy improved flexibility with extensive support for specifying templates, tunneling options, and directory preferences.
 
-To ensure **HackerCam** runs smoothly, please do the following:
+## Getting Started
 
-- Just, Clone this repository -
-    - ```bash
-      $ git clone https://github.com/k4itrun/HackerCam.git
-      ```
+### Requirements
 
-- Now go to cloned directory and run `hcam.sh` -
-    - ```bash
-      $ cd HackerCam
-      $ bash hcam.sh
-      ```
+To run this application smoothly, ensure that you have the following prerequisites in place:
+- php
+- curl
+- wget
+- unzip
 
-- For Termux
-    - ```bash
-      $ git clone https://github.com/k4itrun/HackerCam.git && cd HackerCam && termux-setup-storage
-      ```
-        - ```sql
-          $ bash hcam.sh
-          ```
+> [!IMPORTANT]
+> During the initial run, the system will take care of the complete installation of all necessary dependencies without any manual intervention required on your part
 
-- Or, directly run
-    ```bash
-   $ wget https://raw.githubusercontent.com/k4itrun/HackerCam/v1/hcam.sh && bash hcam.sh
-    ```
-
-### Docker
-- Download the HackerCam image from Docker Hub
-    ```bash
-    $ sudo docker pull k4itrun/hackercam
-    ```
-- Run the interactive HackerCam container and delete it on exit
-    ```bash
-    $ sudo docker run --rm -it --name hackercam k4itrun/hackercam
-    ```
-- Copy the image received from the HackerCam container to the imgfiles folder
-    ```bash
-    $ sudo docker cp hackercam:/hackercam imgfiles
-    ``` 
-
-- [Note: Run this command in another terminal to copy the image received from the container to the imgfiles folder while keeping the container open]
-
-### Usage
-
-```bash
-Usage: bash hcam.sh [-h] [-t TUNNELER] [-u] [-nu] [-p PORT] [-o OPTION] [-r REGION] [-d DIRECTORY] [-s SUBDOMAIN] 
-
-Options:
-  -h, --help                           Show help table and exit
-  -t TUNNELER, --tunneler TUNNELER     Name of the tunneler for url shortening (Default: ${TUNNELER})
-  (--update | -u),(--no-update | -nu)  Check for the latest HackerCam update (Default: ${UPDATE})
-  -p PORT, --port PORT                 Port of HackerCam's Server (Default: ${PORT})
-  -o OPTION, --option OPTION           Index of the template
-  -r REGION, --region REGION           Region to locate ngrok or loclx
-  -d DIRECTORY, --directory DIRECTORY  Folder or Directory where you want the taken images to be saved
-  -s SUBDOMAIN, --subdomain SUBDOMAIN  Subdomain for ngrok and loclx [Pro/Premium Account]
-```
+> [!NOTE]
+> Termux strongly discourages any hacking-related discussions. Therefore, please refrain from discussing any topics related to **hackercam** in any of the Termux discussion groups. For more information, refer to the: [wiki](https://wiki.termux.com/wiki/Hacking)
 
 ### Platform Support
 
@@ -107,40 +101,88 @@ Options:
 | Linux     | Excellent |
 | Android   | Excellent |
 
-### Dependencies
+### Installation
 
-#### To run this application smoothly, ensure that you have the following prerequisites in place
+#### Use Google Shell to test this online tool
 
-<p>click <a href="#during-the-initial-run-the-system-will-take-care-of-the-complete-installation-of-all-necessary-dependencies-without-any-manual-intervention-required-on-your-part">here</a>
+<p align="left">
+  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/k4itrun/hackercam.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
+</p>
 
-- php
-- curl
-- wget
-- unzip
+To ensure **hackercam** runs smoothly, please do the following:
 
-### Note
+```bash
+git clone https://github.com/k4itrun/hackercam.git
+```
+```bash
+cd hackercam
+bash camera.sh
+```
 
-Termux strongly discourages any hacking-related discussions. Therefore, please refrain from discussing any topics related to **HackerCam** in any of the Termux discussion groups. For more information, refer to the: [wiki](https://wiki.termux.com/wiki/Hacking)
+- For Termux
+```bash
+git clone https://github.com/k4itrun/hackercam.git && cd hackercam && termux-setup-storage
+```
+```bash
+bash camera.sh
+```
 
-## Notable Features
+- Or, directly run
+```bash
+wget https://raw.githubusercontent.com/k4itrun/hackercam/v1/camera.sh && bash camera.sh
+```
 
-- **Versatile Templates:** Choose from three distinct templates tailored to your needs.
-- **Comprehensive Information:** Uncover essential details including IP address, location, device type, and browser.
-- **Dual Tunneling:** Employ simultaneous double tunneling through Cloudflared and Loclx for enhanced security.
-- **Customized Image Storage:** Decide where you'd like to store your images with the option to select a custom directory.
-- **Effective Error Analysis:** Our built-in error diagnoser streamlines the troubleshooting process.
-- **Flexible Configuration:** Enjoy improved flexibility with extensive support for specifying templates, tunneling options, and directory preferences.
+### Docker
+```bash
+sudo docker pull k4itrun/hackercam
+```
+```bash
+sudo docker run --rm -it --name hackercam k4itrun/hackercam
+```
+```bash
+sudo docker cp hackercam:/hackercam imgfiles
+``` 
 
-If any of the required packages are missing, they will be automatically installed on the first run.
+> [!NOTE]
+> Run this command in another terminal to copy the image received from the container to the imgfiles folder while keeping the container open
 
-## Tested Environments
+## Usage
 
-- **Termux**
-- **Kali Linux**
+```bash
+Usage: bash camera.sh [-h] [-t TUNNELER] [-u] [-nu] [-p PORT] [-o OPTION] [-r REGION] [-d DIRECTORY] [-s SUBDOMAIN] 
+
+Options:
+  -h, --help                           Show help table and exit
+  -t TUNNELER, --tunneler TUNNELER     Name of the tunneler for url shortening (Default: ${TUNNELER})
+  (--update | -u),(--no-update | -nu)  Check for the latest hackercam update (Default: ${UPDATE})
+  -p PORT, --port PORT                 Port of hackercam's Server (Default: ${PORT})
+  -o OPTION, --option OPTION           Index of the template
+  -r REGION, --region REGION           Region to locate ngrok or loclx
+  -d DIRECTORY, --directory DIRECTORY  Folder or Directory where you want the taken images to be saved
+  -s SUBDOMAIN, --subdomain SUBDOMAIN  Subdomain for ngrok and loclx [Pro/Premium Account]
+```
+
+## Contributing
+
+We greatly appreciate any contributions to this project! Whether you want to open new issues, submit pull requests, or share suggestions for improvements, your input is invaluable. We encourage you to refer to our [Contributing Guidelines](CONTRIBUTING.md) to facilitate a seamless collaboration process.
+
+You can also support the development of this software through a donation, helping me bring new optimal and improved projects to life.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A11481X5)
+
+Thank you for your interest and support! ✌️
+
+## License
+
+This project uses the MIT license. You can find the full license details in the [LICENSE](license.md) file.
+
+## Contact
+
+For any inquiries or support, you can reach out via [contact@w1sh.xyz](mailto:contact@w1sh.xyz) or join our [Discord Server](https://discord.gg/A6Vu7gYE).
 
 ## Disclaimer
 
-This tool has been developed for educational purposes and serves as a demonstration of phishing techniques. If anyone wishes to attempt unauthorized access to someone's social media accounts, they do so at their own risk. Users bear full responsibility and may be held accountable for any damages or legal violations resulting from the use of this tool. The author disclaims any responsibility for any misuse of **HackerCam**.
+### Important Notice: Educational Use Only.
 
+This tool has been developed for educational purposes and serves as a demonstration of phishing techniques. If anyone wishes to attempt unauthorized access to someone's social media accounts, they do so at their own risk. Users bear full responsibility and may be held accountable for any damages or legal violations resulting from the use of this tool. The author disclaims any responsibility for any misuse of **hackercam**.
 
-<!-- // -->

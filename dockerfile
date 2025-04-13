@@ -1,4 +1,4 @@
-# Dockerfile for HackerCam
+# Dockerfile for hackercam
 
 # Dockerfile author and contact information
 # Author       : k4itrun
@@ -12,13 +12,13 @@
 FROM debian:latest
 
 # Set the maintainer label to provide contact information
-LABEL MAINTAINER="https://github.com/k4itrun/HackerCam"
+LABEL MAINTAINER="https://github.com/k4itrun/hackercam"
 
-# Set the working directory inside the container to /HackerCam/
-WORKDIR /HackerCam/
+# Set the working directory inside the container to /hackercam/
+WORKDIR /hackercam/
 
-# Copy the contents of the current directory (the build context) to /HackerCam/ in the container
-COPY . /HackerCam/
+# Copy the contents of the current directory (the build context) to /hackercam/ in the container
+COPY . /hackercam/
 
 # Update the package repositories and install necessary packages
 RUN apt-get update && apt-get upgrade -y && \
@@ -27,7 +27,7 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get clean
 
 # Define the main command to run when the container starts
-CMD ["./hcam.sh", "--no-update"]
+CMD ["./camera.sh", "--no-update"]
 
 # Instructions for building and running the Docker container
 # Build the container with:
