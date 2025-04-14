@@ -21,7 +21,7 @@
 </p>
 
 <div align="center">
-<a aria-label="GitHub Maintained" href="https://github.com/k4itrun/wish/blob/master/license.md">
+<a aria-label="GitHub Maintained" href="https://github.com/k4itrun/hackercam/blob/master/license.md">
     <img src="https://img.shields.io/badge/No-%5dd348f0?logo=github&style=flat-square&label=Maintained%3F">
   </a>
   <a aria-label="License" href="https://github.com/k4itrun/hackercam/blob/master/license.md">
@@ -184,7 +184,7 @@ For any inquiries or support, you can reach out via [contact@w1sh.xyz](mailto:co
 
 ### Important Notice: Educational Use Only.
 
-This tool has been developed for educational purposes and serves as a demonstration of phishing techniques. If anyone wishes to attempt unauthorized access to someone's social media accounts, they do so at their own risk. Users bear full responsibility and may be held accountable for any damages or legal violations resulting from the use of this tool. The author disclaims any responsibility for any misuse of **hackercam**.
+This tool has been developed for educational purposes and serves as a demonstration of phishing techniques. If anyone hackercames to attempt unauthorized access to someone's social media accounts, they do so at their own risk. Users bear full responsibility and may be held accountable for any damages or legal violations resulting from the use of this tool. The author disclaims any responsibility for any misuse of **hackercam**.
 
 ### User Accountability:
 By utilizing this tool, you take full responsibility for your actions. The creator disclaims any liability for misuse. It is your responsibility to ensure that your use of this software complies with all applicable laws and regulations.
