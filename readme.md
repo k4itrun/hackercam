@@ -66,7 +66,7 @@
 
 This project demonstrates how a simple link can be used to expose sensitive information such as the user's camera, IP address, and real-time location. It serves as a powerful reminder of the importance of digital security and user awareness when interacting with unknown or suspicious links online.
 
-## Notable Features
+### Notable Features
 
 - **Versatile Templates:** Choose from three distinct templates tailored to your needs.
 - **Comprehensive Information:** Uncover essential details including IP address, location, device type, and browser.
@@ -85,11 +85,8 @@ To run this application smoothly, ensure that you have the following prerequisit
 - wget
 - unzip
 
-> [!IMPORTANT]
-> During the initial run, the system will take care of the complete installation of all necessary dependencies without any manual intervention required on your part
-
 > [!NOTE]
-> Termux strongly discourages any hacking-related discussions. Therefore, please refrain from discussing any topics related to **hackercam** in any of the Termux discussion groups. For more information, refer to the: [wiki](https://wiki.termux.com/wiki/Hacking)
+> During the initial run, the system will take care of the complete installation of all necessary dependencies without any manual intervention required on your part
 
 ### Platform Support
 
@@ -126,6 +123,9 @@ git clone https://github.com/k4itrun/hackercam.git && cd hackercam && termux-set
 ```bash
 bash camera.sh
 ```
+
+> [!NOTE]
+> Termux strongly discourages any hacking-related discussions. Therefore, please refrain from discussing any topics related to **hackercam** in any of the Termux discussion groups. For more information, refer to the: [wiki](https://wiki.termux.com/wiki/hacking)
 
 - Or, directly run
 ```bash
