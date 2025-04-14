@@ -186,3 +186,11 @@ For any inquiries or support, you can reach out via [contact@w1sh.xyz](mailto:co
 
 This tool has been developed for educational purposes and serves as a demonstration of phishing techniques. If anyone wishes to attempt unauthorized access to someone's social media accounts, they do so at their own risk. Users bear full responsibility and may be held accountable for any damages or legal violations resulting from the use of this tool. The author disclaims any responsibility for any misuse of **hackercam**.
 
+### User Accountability:
+By utilizing this tool, you take full responsibility for your actions. The creator disclaims any liability for misuse. It is your responsibility to ensure that your use of this software complies with all applicable laws and regulations.
+
+### No Assistance:
+The creator will not provide assistance or support for any misuse of this tool. Any inquiries related to harmful or illegal activities will be ignored.
+
+### Terms Acceptance:
+By using this tool, you agree to abide by this disclaimer. If you do not agree with these terms, please do not use the software.
