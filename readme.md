@@ -150,7 +150,7 @@ sudo docker cp hackercam:/hackercam imgfiles
 
 ## Usage
 
-```bash
+```yml
 Usage: bash camera.sh [-h] [-t TUNNELER] [-u] [-nu] [-p PORT] [-o OPTION] [-r REGION] [-d DIRECTORY] [-s SUBDOMAIN] 
 
 Options:
