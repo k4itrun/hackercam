@@ -113,6 +113,8 @@ git clone https://github.com/k4itrun/hackercam.git
 ```
 ```bash
 cd hackercam
+```
+```bash
 bash camera.sh
 ```
 
