@@ -180,7 +180,7 @@ This project uses the MIT license. You can find the full license details in the 
 
 ## Contact
 
-For any inquiries or support, you can reach out via [contact@w1sh.xyz](mailto:contact@w1sh.xyz) or join our [Discord Server](https://discord.gg/A6Vu7gYE).
+For any inquiries or support, you can reach out via [billoneta@proto.me](mailto:billoneta@proto.me) or join our [Discord Server](https://discord.gg/A6Vu7gYE).
 
 ## Disclaimer
 
