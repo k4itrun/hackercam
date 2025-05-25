@@ -4,16 +4,12 @@ on: [push, pull_request]
 
 jobs:
  analyzer:
-  name: CodeQL Analysis
+  name: Bash Analysis
   runs-on: ubuntu-latest
   permissions:
    security-events: write
    contents: read
    actions: read
-  strategy:
-   fail-fast: false
-   matrix:
-    lang: ['bash']
   steps:
    - name: Checkout code
      uses: actions/checkout@v4
