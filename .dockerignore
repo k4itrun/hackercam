@@ -1,0 +1,42 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Git-related files and folders
+.git
+.gitignore
+.gitattributes
+
+# Editor and IDE files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.vscode/
+.idea/
+*.sublime-*
+
+# Build and cache folders (in case project includes other languages/tools)
+node_modules/
+__pycache__/
+*.pyc
+*.class
+
+# Docker-specific
+Dockerfile
+.dockerignore
+
+# CI/CD configuration (not needed in image)
+.github/
+.gitlab/
+
+# Archives and output files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Environment files (usually sensitive)
+.env
+.env.*

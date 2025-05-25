@@ -1,0 +1,29 @@
+name: Analyzer
+
+on: [push, pull_request]
+
+jobs:
+ analyzer:
+  name: CodeQL Analysis
+  runs-on: ubuntu-latest
+  permissions:
+   security-events: write
+   contents: read
+   actions: read
+  strategy:
+   fail-fast: false
+   matrix:
+    lang: ['bash']
+  steps:
+   - name: Checkout code
+     uses: actions/checkout@v4
+
+   - name: Initialize CodeQL Scanner
+     uses: github/codeql-action/init@v3
+     with:
+      languages: ${{ matrix.lang }}
+
+   - name: Run CodeQL Analysis
+     uses: github/codeql-action/analyze@v3
+     with:
+      category: 'audit/${{matrix.lang}}'

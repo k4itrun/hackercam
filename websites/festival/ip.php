@@ -3,8 +3,7 @@
 # ip.php by k4itrun
 # Author   : k4itrun
 # Github   : https://github.com/k4itrun
-# Email    : k4itrun@6889.fun
-# Telegram : https//t.me/k4itrun
+# Email    : tsx@billoneta.xyz
 # Date     : 20-10-2023
 
 error_reporting(E_ERROR | E_PARSE);
