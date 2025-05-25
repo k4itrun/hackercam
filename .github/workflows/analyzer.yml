@@ -18,12 +18,5 @@ jobs:
    - name: Checkout code
      uses: actions/checkout@v4
 
-   - name: Initialize CodeQL Scanner
-     uses: github/codeql-action/init@v3
-     with:
-      languages: ${{ matrix.lang }}
-
-   - name: Run CodeQL Analysis
-     uses: github/codeql-action/analyze@v3
-     with:
-      category: 'audit/${{matrix.lang}}'
+   - name: Run ShellCheck
+     uses: ludeeus/action-shellcheck@v2
