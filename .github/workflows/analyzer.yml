@@ -27,4 +27,4 @@ jobs:
        echo "EOF" >> $GITHUB_OUTPUT
        
    - name: Show ShellCheck
-     run: echo "ShellCheck output: ${{ steps.shellcheck.outputs.result }}"
+     run: echo "ShellCheck output: ${{ steps.shellcheck.outputs.result }}" 
