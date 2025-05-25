@@ -14,5 +14,9 @@ jobs:
    - name: Checkout code
      uses: actions/checkout@v4
 
+   - name: Install ShellCheck
+     run: sudo apt-get update && sudo apt-get install -y shellcheck
+     
    - name: Run ShellCheck
-     uses: ludeeus/action-shellcheck@v2
+     run: |
+       find . -name '*.sh' -print0 | xargs -0 shellcheck
