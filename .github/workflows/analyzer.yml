@@ -18,5 +18,13 @@ jobs:
      run: sudo apt-get update && sudo apt-get install -y shellcheck
      
    - name: Run ShellCheck
+     id: shellcheck
      run: |
-       find . -name '*.sh' -print0 | xargs -0 shellcheck
+       OUTPUT=$(find . -name '*.sh' -print0 | xargs -0 shellcheck 2>&1) || true
+       echo "$OUTPUT"
+       echo "result<<EOF" >> $GITHUB_OUTPUT
+       echo "$OUTPUT" >> $GITHUB_OUTPUT
+       echo "EOF" >> $GITHUB_OUTPUT
+       
+   - name: Show ShellCheck
+     run: echo "ShellCheck output: ${{ steps.shellcheck.outputs.result }}"
